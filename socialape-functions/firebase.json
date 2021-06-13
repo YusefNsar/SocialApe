@@ -1,0 +1,20 @@
+{
+  "emulators": {
+    "functions": {
+      "port": 4000
+    },
+    "ui": {
+      "enabled": true
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "database": {
+      "port": 9000
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
