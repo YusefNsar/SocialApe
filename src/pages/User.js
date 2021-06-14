@@ -38,7 +38,7 @@ class User extends Component {
     const screamsMarkup = loading ? (
       <ScreamSkeleton />
     ) : screams === null ? (
-      <p>Sadly, you have no screams yet</p>
+      <p>Opps, you have no screams yet</p>
     ) : !screamIdParam ? (
       screams.map((scream) => <Scream key={scream.screamId} scream={scream} />)
     ) : (
